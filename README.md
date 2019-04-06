@@ -1,12 +1,12 @@
 CFEngine3 Mode for YASnippet
-----------------------------
+============================
 
 If you use emacs to write CFEngine 3 promise files, I think you will
 like yasnippet-cfengine.  It is a collection of snippets (templates)
 for YASnippet.  I wrote it to scratch my own itch.
 
 Installation
-============
+------------
 
 First, you need YASnippet in your emacs environment.  You can use
 
@@ -39,7 +39,7 @@ mv {emacs-yasnippet-,}cfengine3-mode
 Finally, restart emacs or reload you ~/.emacs file.
 
 Usage
-=====
+-----
 
 When you are writing CFEngine promises, at the highest level, you will
 either need to create bundles or bodies.  There are four types of
@@ -127,8 +127,3 @@ body contain _
 
 Again, fill in the template just as described for bundles.  Delete
 what you don't need from the template.  C-k is your friend.
-
-----
-
-This file must end with the following line.
-# --
