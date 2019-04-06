@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: body copy_from
+# key: body-copy_from
+# contributor: Jeff Carlson <jeff@ultimateevil.org>
+# uuid: 7e099e07-a9ef-49c6-935a-e01c17e8bcdd
+# --
+body copy_from $1
+{

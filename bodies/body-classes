@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: body classes
+# key: body-classes
+# contributor: Jeff Carlson <jeff@ultimateevil.org>
+# uuid: d5a412db-518f-4868-b94c-121bd249c919
+# --
+body classes $1
+{

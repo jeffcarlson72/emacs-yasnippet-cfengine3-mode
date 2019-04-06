@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: body package_method
+# key: body-package_method
+# contributor: Jeff Carlson <jeff@ultimateevil.org>
+# uuid: fb886396-ccbc-4d04-9f90-48c88cbeec1d
+# --
+body package_method $1
+{

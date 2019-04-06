@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: body environment_resources
+# key: body-environment_resources
+# contributor: Jeff Carlson <jeff@ultimateevil.org>
+# uuid: 39b3fa3a-0344-4298-9776-b517df2a6ac5
+# --
+body environment_resources $1
+{

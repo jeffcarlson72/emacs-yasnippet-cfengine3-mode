@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: body action
+# key: body-action
+# contributor: Jeff Carlson <jeff@ultimateevil.org>
+# uuid: d394abcc-e8e7-4268-ba17-d9f70e32fafa
+# --
+body action $1
+{
