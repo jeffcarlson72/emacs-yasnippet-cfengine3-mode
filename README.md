@@ -26,15 +26,17 @@ I have globally enabled YASnippet in my `~/.emacs`.
 ```
 
 Next, cd where your snippets are saved.  Mine are
-`~/.emacs.d/elpa/yasnippet-VERSION/snippets/`.  Then clone the
-repository.
+`~/.emacs.d/elpa/yasnippet-VERSION/snippets/`.  Clone the repository.
+Rename the directory to match the yasnippet convention of matching the
+mode in which the snippets are used.
 
 ```
 cd ~/.emacs.d/elpa/yasnippet*/snippets
-git clone https://
+git clone https://github.com/jeffcarlson72/emacs-yasnippet-cfengine3-mode.git
+mv {emacs-yasnippet-,}cfengine3-mode
 ```
 
-Finally, restart emacs.
+Finally, restart emacs or reload you ~/.emacs file.
 
 Usage
 =====
