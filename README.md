@@ -127,3 +127,8 @@ body contain _
 
 Again, fill in the template just as described for bundles.  Delete
 what you don't need from the template.  C-k is your friend.
+
+Change Log
+----------
+
+2021-05-14 - Nick Anderson contributed missing functions, bringing this up to date with 3.18.0a.
