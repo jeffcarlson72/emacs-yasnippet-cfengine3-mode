@@ -6,3 +6,20 @@
 # --
 body process_select $1
 {
+inherit_from
+meta
+command
+pgid
+pid
+ppid
+priority
+process_owner
+process_result
+rsize
+status
+stime_range
+threads
+ttime_range
+tty
+vsize
+}

@@ -6,3 +6,8 @@
 # --
 body replace_with $1
 {
+inherit_from
+meta
+occurrences
+replace_value
+}

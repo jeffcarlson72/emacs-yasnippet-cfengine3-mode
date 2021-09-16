@@ -6,3 +6,30 @@
 # --
 body copy_from $1
 {
+inherit_from
+meta
+check_root
+collapse_destination_dir
+compare
+copy_backup
+copy_size
+copylink_patterns
+encrypt
+findertype
+force_ipv4
+force_update
+link_type
+linkcopy_patterns
+missing_ok
+portnumber
+preserve
+protocol_version
+purge
+servers
+source
+stealth
+timeout
+trustkey
+type_check
+verify
+}

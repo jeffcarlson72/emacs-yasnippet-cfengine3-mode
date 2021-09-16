@@ -6,3 +6,12 @@
 # --
 body delete_select $1
 {
+inherit_from
+meta
+delete_if_contains_from_list
+delete_if_match_from_list
+delete_if_not_contains_from_list
+delete_if_not_match_from_list
+delete_if_not_startwith_from_list
+delete_if_startwith_from_list
+}

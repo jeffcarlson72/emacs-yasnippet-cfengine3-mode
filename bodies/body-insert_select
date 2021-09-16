@@ -6,3 +6,12 @@
 # --
 body insert_select $1
 {
+inherit_from
+meta
+insert_if_contains_from_list
+insert_if_match_from_list
+insert_if_not_contains_from_list
+insert_if_not_match_from_list
+insert_if_not_startwith_from_list
+insert_if_startwith_from_list
+}

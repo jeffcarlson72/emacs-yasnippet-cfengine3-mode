@@ -6,3 +6,11 @@
 # --
 body environment_resources $1
 {
+inherit_from
+meta
+env_baseline
+env_cpus
+env_disk
+env_memory
+env_spec
+}

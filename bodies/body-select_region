@@ -6,3 +6,11 @@
 # --
 body select_region $1
 {
+inherit_from
+meta
+include_end_delimiter
+include_start_delimiter
+select_end
+select_end_match_eof
+select_start
+}

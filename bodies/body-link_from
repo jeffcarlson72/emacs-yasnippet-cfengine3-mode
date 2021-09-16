@@ -6,3 +6,12 @@
 # --
 body link_from $1
 {
+inherit_from
+meta
+copy_patterns
+link_children
+link_type
+source
+when_linking_children
+when_no_source
+}

@@ -6,3 +6,11 @@
 # --
 body volume $1
 {
+inherit_from
+meta
+check_foreign
+freespace
+scan_arrivals
+sensible_count
+sensible_size
+}

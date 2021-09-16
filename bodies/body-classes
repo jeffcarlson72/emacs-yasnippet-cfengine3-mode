@@ -6,3 +6,20 @@
 # --
 body classes $1
 {
+inherit_from
+meta
+cancel_kept
+cancel_notkept
+cancel_repaired
+failed_returncodes
+kept_returncodes
+persist_time
+promise_kept
+promise_repaired
+repair_denied
+repair_failed
+repair_timeout
+repaired_returncodes
+scope
+timer_policy
+}

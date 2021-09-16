@@ -6,3 +6,11 @@
 # --
 body service_method $1
 {
+inherit_from
+meta
+service_args
+service_autostart_policy
+service_bundle
+service_dependence_chain
+service_type
+}

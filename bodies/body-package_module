@@ -6,3 +6,11 @@
 # --
 body package_module $1
 {
+inherit_from
+meta
+default_options
+interpreter
+module_path
+query_installed_ifelapsed
+query_updates_ifelapsed
+}

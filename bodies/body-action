@@ -6,3 +6,19 @@
 # --
 body action $1
 {
+inherit_from
+meta
+action_policy
+audit
+background
+expireafter
+ifelapsed
+log_failed
+log_kept
+log_level
+log_priority
+log_repaired
+log_string
+measurement_class
+report_level
+}

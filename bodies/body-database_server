@@ -6,3 +6,11 @@
 # --
 body database_server $1
 {
+inherit_from
+meta
+db_server_connection_db
+db_server_host
+db_server_owner
+db_server_password
+db_server_type
+}

@@ -6,3 +6,9 @@
 # --
 body process_count $1
 {
+inherit_from
+meta
+in_range_define
+match_range
+out_of_range_define
+}

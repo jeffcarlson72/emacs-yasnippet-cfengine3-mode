@@ -6,3 +6,13 @@
 # --
 body depth_search $1
 {
+inherit_from
+meta
+depth
+exclude_dirs
+include_basedir
+include_dirs
+rmdeadlinks
+traverse_links
+xdev
+}

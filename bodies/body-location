@@ -6,3 +6,9 @@
 # --
 body location $1
 {
+inherit_from
+meta
+before_after
+first_last
+select_line_matching
+}

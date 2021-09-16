@@ -6,3 +6,9 @@
 # --
 body environment_interface $1
 {
+inherit_from
+meta
+env_addresses
+env_name
+env_network
+}

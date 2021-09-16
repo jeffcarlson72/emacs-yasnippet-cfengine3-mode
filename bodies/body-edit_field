@@ -6,3 +6,14 @@
 # --
 body edit_field $1
 {
+inherit_from
+meta
+allow_blank_fields
+extend_fields
+field_operation
+field_separator
+field_value
+select_field
+start_fields_from_zero
+value_separator
+}

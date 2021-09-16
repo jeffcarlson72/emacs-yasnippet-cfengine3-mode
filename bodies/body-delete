@@ -6,3 +6,8 @@
 # --
 body delete $1
 {
+inherit_from
+meta
+dirlinks
+rmdirs
+}

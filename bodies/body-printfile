@@ -6,3 +6,8 @@
 # --
 body printfile $1
 {
+inherit_from
+meta
+file_to_print
+number_of_lines
+}

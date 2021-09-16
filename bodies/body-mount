@@ -6,3 +6,12 @@
 # --
 body mount $1
 {
+inherit_from
+meta
+edit_fstab
+mount_options
+mount_server
+mount_source
+mount_type
+unmount
+}

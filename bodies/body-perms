@@ -6,3 +6,11 @@
 # --
 body perms $1
 {
+inherit_from
+meta
+bsdflags
+groups
+mode
+owners
+rxdirs
+}

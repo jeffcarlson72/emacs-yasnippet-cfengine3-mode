@@ -6,3 +6,10 @@
 # --
 body report_data_select $1
 {
+inherit_from
+meta
+monitoring_exclude
+monitoring_include
+promise_handle_exclude
+promise_handle_include
+}

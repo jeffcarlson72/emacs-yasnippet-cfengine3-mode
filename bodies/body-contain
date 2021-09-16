@@ -6,3 +6,15 @@
 # --
 body contain $1
 {
+inherit_from
+meta
+chdir
+chroot
+exec_group
+exec_owner
+exec_timeout
+no_output
+preview
+umask
+useshell
+}

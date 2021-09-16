@@ -6,3 +6,12 @@
 # --
 body edit_defaults $1
 {
+inherit_from
+meta
+edit_backup
+empty_file_before_editing
+inherit
+max_file_size
+recognize_join
+rotate
+}

@@ -6,3 +6,11 @@
 # --
 body rename $1
 {
+inherit_from
+meta
+disable
+disable_mode
+disable_suffix
+newname
+rotate
+}
